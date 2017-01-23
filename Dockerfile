@@ -1,4 +1,5 @@
 FROM alpine:3.5
+EXPOSE 10000
 
 RUN apk add --update openssh-client \
  && adduser -Dh /app app

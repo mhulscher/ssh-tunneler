@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -u
+set -u +x
 
 mkdir -pv ~/.ssh
 
